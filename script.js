@@ -31,7 +31,6 @@ let personalMovieDB = {
     genres: [],
     privat: false
 };
-personalMovieDB.count = numberOfFilms;
 
 let lastMovie1 = prompt("Один из последних просмотренных фильмов", '');
 let rating1 = prompt("На сколько вы оцениваете его", '');
